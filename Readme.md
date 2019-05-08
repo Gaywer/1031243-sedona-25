@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Артур Нарейко](https://up.htmlacademy.ru/htmlcss/25/user/1031243).
-* Наставник: `Неизвестно`.
+* Наставник: [Анатолий Долгов](https://htmlacademy.ru/profile/dolgov_anatoly)
 
 ---
 
