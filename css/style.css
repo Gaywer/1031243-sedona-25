@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+
+   font-family: "PT Sans", Arial, sans-serif;
+   font-size: 14px;
+   line-height: 24px;
+   color: #000000;
+   text-transform: uppercase;
+   font-weight: bold;
+
+   background-color: #ffffff;
+   background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.site-navigation {
+  font-size: 14px;
+  line-height: 21px;
+
+  background-color: #ffffff;
+}
+
+.site-navigation .site-navigation-item {
+  color: #000000;
+}
+
+
+.section-description-slogan {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.section-description-text {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.section-search-title {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.section-search-info {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.items {
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+
+  background-color: #766357;
+}
