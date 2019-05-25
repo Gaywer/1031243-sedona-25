@@ -1,3 +1,4 @@
+/*стили общие*/
 body {
   margin: 0;
   padding: 0;
@@ -9,24 +10,36 @@ body {
    text-transform: uppercase;
    font-weight: bold;
 
-   background-color: #ffffff;
+   background-color: #FEFEFE;
    background-repeat: no-repeat;
 }
-
 a {
   text-decoration: none;
 }
 
-.site-navigation {
+.site-navigation-item {
   font-size: 14px;
   line-height: 21px;
-
+  color: #000000;
   background-color: #ffffff;
 }
-
-.site-navigation .site-navigation-item {
+.site-navigation-info {
   color: #000000;
 }
+
+.site-navigation-info:visited {
+  color: #766357;
+}
+
+.site-navigation-info:hover {
+  color:rgba(153, 204, 204, 0.5);
+}
+
+.site-navigation-info:active {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+/*стили для главной*/
 
 
 .section-description-slogan {
@@ -51,10 +64,132 @@ a {
   font-weight: 400;
 }
 
-.items {
+.items-search   {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+
+.items-search-people {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  background-color: #F2F2F2;
+}
+
+.items-search-date {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  background-color: #F2F2F2;
+}
+
+.items-search-date:hover {
+  background-color: #EBEBEB;
+}
+
+.items-search-date:active {
+  background-color: #FFFFFF;
+}
+
+.items-search-sign {
+  color: #A9A9A9;
+  background-color: white;
+  font-size: 11px;
+}
+
+.items-search-sign:hover {
+ color: #000000;
+}
+
+.items-search-sign:active {
+  color: #81B3D2;
+}
+
+.items,
+.items-search-button {
   font-size: 21px;
   line-height: 26px;
-  color: #ffffff;
+}
 
+/*стили общие*/
+
+.main-footer-hashtag {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.main-footer-sait {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+
+.btn-rent {
+  color: #ffffff;
   background-color: #766357;
+}
+
+.btn-rent:hover {
+  background-color: #604e43;
+}
+
+.btn-rent:active {
+  background-color: #503e33;
+  color: #857871;
+}
+
+.btn-search {
+  color: #ffffff;
+  background-color: #81b3d2;
+}
+
+.btn-search:hover {
+  background-color: #669EC0;
+}
+.btn-search:active {
+  background-color: #669EC0;
+  color: rgba(136, 182, 209, 0.3);
+}
+
+.main-footer-social-button {
+  background-color: #81b3d2;
+}
+
+/*стили для страницы побора отелей*/
+
+.item-for-hotel {
+  color: rgba(119, 100, 88, 0.8);
+}
+
+.features-name-hotel {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.features-hotel-item-price {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.features-hotel-item-link {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.features-name-hotel:hover {
+  color: #81b3d2;
+}
+
+.features-name-hotel:active {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.features-hotel-item-rating {
+  font-size: 14px;
+  line-height: 21px;
+  border-color: #F2F2F2;
+  color: #666666;
 }
