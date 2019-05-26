@@ -17,12 +17,52 @@ a {
   text-decoration: none;
 }
 
+.btn-rent {
+  color: #ffffff;
+  background-color: #766357;
+}
+
+.btn-rent:hover {
+  background-color: #604e43;
+}
+
+.btn-rent:active {
+  background-color: #503e33;
+  color: #857871;
+}
+
+.btn-search {
+  color: #ffffff;
+  background-color: #81b3d2;
+}
+
+.btn-search:hover {
+  background-color: #669EC0;
+}
+.btn-search:active {
+  background-color: #669EC0;
+  color: rgba(136, 182, 209, 0.3);
+}
+/*стили для общих секций*/
 .site-navigation-item {
   font-size: 14px;
   line-height: 21px;
   color: #000000;
   background-color: #ffffff;
 }
+
+.site-navigation-item:visited {
+  color: #766357;
+}
+
+.site-navigation-item:hover {
+  color:rgba(153, 204, 204, 0.5);
+}
+
+.site-navigation-item:active {
+  color: rgba(0, 0, 0, 0.2);
+}
+
 .site-navigation-info {
   color: #000000;
 }
@@ -39,6 +79,20 @@ a {
   color: rgba(0, 0, 0, 0.2);
 }
 
+.main-footer-hashtag {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.main-footer-sait {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.main-footer-social-button {
+  background-color: #81b3d2;
+}
 /*стили для главной*/
 
 
@@ -69,26 +123,18 @@ a {
   line-height: 24px;
 }
 
-
-.items-search-people {
+.items-search-desc {
   font-size: 14px;
   line-height: 24px;
   font-weight: bold;
   background-color: #F2F2F2;
 }
 
-.items-search-date {
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: bold;
-  background-color: #F2F2F2;
+.items-search-desc:hover {
+  background-color: #ebebeb;
 }
 
-.items-search-date:hover {
-  background-color: #EBEBEB;
-}
-
-.items-search-date:active {
+.items-search-desc:focus {
   background-color: #FFFFFF;
 }
 
@@ -112,54 +158,9 @@ a {
   line-height: 26px;
 }
 
-/*стили общие*/
-
-.main-footer-hashtag {
-  font-size: 21px;
-  line-height: 26px;
-}
-
-.main-footer-sait {
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 400;
-}
-
-
-.btn-rent {
-  color: #ffffff;
-  background-color: #766357;
-}
-
-.btn-rent:hover {
-  background-color: #604e43;
-}
-
-.btn-rent:active {
-  background-color: #503e33;
-  color: #857871;
-}
-
-.btn-search {
-  color: #ffffff;
-  background-color: #81b3d2;
-}
-
-.btn-search:hover {
-  background-color: #669EC0;
-}
-.btn-search:active {
-  background-color: #669EC0;
-  color: rgba(136, 182, 209, 0.3);
-}
-
-.main-footer-social-button {
-  background-color: #81b3d2;
-}
-
 /*стили для страницы побора отелей*/
 
-.item-for-hotel {
+.site-navigation-item--active {
   color: rgba(119, 100, 88, 0.8);
 }
 
