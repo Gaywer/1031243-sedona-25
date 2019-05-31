@@ -13,6 +13,18 @@ body {
    background-color: #FEFEFE;
    background-repeat: no-repeat;
 }
+
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important;
+	width: 1px !important;
+	overflow: hidden;
+}
+
 a {
   text-decoration: none;
 }
@@ -49,7 +61,10 @@ a {
   line-height: 21px;
   color: #000000;
   background-color: #ffffff;
+  width: 1200px;
+
 }
+
 
 .site-navigation-item:visited {
   color: #766357;
@@ -93,29 +108,75 @@ a {
 .main-footer-social-button {
   background-color: #81b3d2;
 }
+
+.site-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding-left: 73px;
+  padding-right: 73px;
+}
+
+.main-header {
+  position: relative;
+  padding: 16px;
+}
+
+.container-logo {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%);
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  padding-left: 135px;
+  padding-right: 103px;
+  width: 1200px;
+}
+ .main-footer-social {
+   display: flex;
+   justify-content: space-between;
+ }
+
+.main-footer-social-button {
+  width: 46px;
+  height: 48px;
+  margin-right: 6px;
+}
+
 /*стили для главной*/
 
 
 .section-description-slogan {
   font-size: 21px;
   line-height: 26px;
+  text-align: center;
 }
 
 .section-description-text {
   font-size: 14px;
   line-height: 26px;
   font-weight: 400;
+  text-align: center;
 }
 
 .section-search-title {
   font-size: 30px;
   line-height: 36px;
+  text-align: center;
 }
 
 .section-search-info {
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
+  text-align: center;
 }
 
 .items-search   {
@@ -158,6 +219,41 @@ a {
   line-height: 26px;
 }
 
+.items {
+  display: block;
+  border: 1px solid rgba(255, 0, 0, 0.0);
+  width: 568px;
+  height: 86px;
+  margin: auto;
+}
+
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  width: 568px;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin: auto;
+}
+
+.list-search {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 568px;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin: auto;
+  padding: 10px;
+}
+
+.items-search-button {
+  width: 458px;
+  height: 58px;
+}
+
+
 /*стили для страницы побора отелей*/
 
 .site-navigation-item--active {
@@ -193,4 +289,24 @@ a {
   line-height: 21px;
   border-color: #F2F2F2;
   color: #666666;
+}
+
+.features-wrapper {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 71px;
+  padding-left: 71px;
+}
+
+.features-hotel-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
 }
