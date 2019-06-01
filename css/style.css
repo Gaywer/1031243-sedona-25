@@ -2,6 +2,7 @@
 body {
   margin: 0;
   padding: 0;
+  width: 1200px;
 
    font-family: "PT Sans", Arial, sans-serif;
    font-size: 14px;
@@ -9,6 +10,7 @@ body {
    color: #000000;
    text-transform: uppercase;
    font-weight: bold;
+
 
    background-color: #FEFEFE;
    background-repeat: no-repeat;
@@ -56,12 +58,16 @@ a {
   color: rgba(136, 182, 209, 0.3);
 }
 /*стили для общих секций*/
+
+.site-navigation {
+  list-style: none;
+}
+
 .site-navigation-item {
   font-size: 14px;
   line-height: 21px;
   color: #000000;
   background-color: #ffffff;
-  width: 1200px;
 
 }
 
@@ -107,6 +113,7 @@ a {
 
 .main-footer-social-button {
   background-color: #81b3d2;
+  list-style: none;
 }
 
 .site-navigation {
@@ -119,10 +126,11 @@ a {
 
 .main-header {
   position: relative;
-  padding: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
-.container-logo {
+.main-logo {
   position: absolute;
   left: 50%;
   top: 0;
@@ -132,12 +140,12 @@ a {
 .footer-wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: auto;
   padding-top: 36px;
   padding-bottom: 36px;
-  padding-left: 135px;
-  padding-right: 103px;
-  width: 1200px;
+  padding-left: 120px;
+  padding-right: 120px;
 }
  .main-footer-social {
    display: flex;
@@ -213,27 +221,26 @@ a {
   color: #81B3D2;
 }
 
-.items,
+.search-hotels,
 .items-search-button {
   font-size: 21px;
   line-height: 26px;
 }
 
-.items {
+.search-hotels {
   display: block;
   border: 1px solid rgba(255, 0, 0, 0.0);
   width: 568px;
-  height: 86px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   margin: auto;
+  text-align: center;
 }
 
 
-.list {
+.list-search {
   display: flex;
   justify-content: space-between;
-  width: 568px;
-  padding-left: 55px;
-  padding-right: 55px;
   margin: auto;
 }
 
@@ -250,7 +257,15 @@ a {
 
 .items-search-button {
   width: 458px;
-  height: 58px;
+  padding-top: 18px;
+  padding-bottom:18px;
+  text-align: center;
+}
+
+.form-search {
+  width: 458px;
+  padding-right: 110px;
+  padding-left: 110px;
 }
 
 
@@ -291,9 +306,8 @@ a {
   color: #666666;
 }
 
-.features-wrapper {
+.features-hotel-item {
   display: flex;
-  width: 1200px;
   justify-content: space-between;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -309,4 +323,5 @@ a {
 .rating {
   display: flex;
   justify-content: center;
+  list-style: none
 }
